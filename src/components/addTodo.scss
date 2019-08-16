@@ -1,0 +1,22 @@
+.todo-form {
+	display: flex;
+
+	&__btn {
+		display: inline-block;
+		border: none;
+		background: #555;
+		color: #fff;
+		padding: 7px 20px;
+		cursor: pointer;
+		flex: 1;
+
+		&:hover {
+			background: #666;
+		}
+	}
+
+	&__input-field {
+		flex: 10;
+		padding: 10px;
+	}
+}
